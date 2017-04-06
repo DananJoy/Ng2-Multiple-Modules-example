@@ -1,9 +1,11 @@
 <h1>Angular 2 Multi-Module</h1>
 <p>Separated module for</p>
 <ul>
-    <li>Players - routes /players</li>
-    <li>Teams - routes /teams</li>
+    <li><a [routerLink]="['/home']">Home</a> - routes /home</li>
+    <li><a [routerLink]="['/players']">Players</a> - routes /players</li>
+    <li><a [routerLink]="['/teams']">Teams</a> - routes /teams</li>
 </ul>
-<p><a href="https://github.com/DananJoy/Ng2-Multiple-Modules-example">Github Source Code</a></p>
+<p><a href="https://github.com/DananJoy/Ng2-Multiple-Modules-example" target="blank">Github Source Code</a></p>
+<h6>Created - 2017 by <a href="https://github.com/DananJoy">DananJoy</a></h6>
 <hr>
 <router-outlet></router-outlet>

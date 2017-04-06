@@ -4,10 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { PlayersModule } from './players/players.module';
-import { PlayersComponent } from './players/players.component';
-
 import { TeamsModule } from './teams/teams.module';
-import { TeamsComponent } from './teams/teams.component';
 
 import { AppRouter } from './app.routes';
 
